@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Checkout</title>
+    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="Bootstrap eCommerce Template">
+    <meta name="author" content="p-themes">
+    <!--CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     
+    <link rel="stylesheet" href="css/skins/skin-demo.css">
+    <link rel="stylesheet" href="css/demos/demo.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/demos/logo/favicon.png" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <header class="header header-intro-clearance header-3">
+
+            <div class="header-top">
+                <div class="container">
+
+
+                    <div class="header-top">
+                        <div class="container d-flex justify-content-end align-items-center" style="min-height: 40px;">
+                            <a href="login.html" style="font-weight: 500;">Sign In / Register</a>
+                        </div>
+                    </div>
+
+
+                </div><!-- End .container -->
+            </div><!-- End .header-top -->
+
+            <div class="header-middle">
+                <div class="container">
+                    <div class="header-left">
+                        <button class="mobile-menu-toggler">
+                            <span class="sr-only">Toggle mobile menu</span>
+                            <i class="icon-bars"></i>
+                        </button>
+
+                        <a href="index.html" class="logo" style="height: px; ">
+                            <img src="images/demos/logo/logo3.png" alt="Mo Logo" style="height: 40px; width: auto;">
+                        </a>
+                    </div>
+
+                    <div class="header-center">
+                        <div class="header-search header-search-extended header-search-visible d-none d-lg-block">
+                            <a href="#" class="search-toggle" role="button"><i class="icon-search"></i></a>
+                            <form action="#" method="get">
+                                <div class="header-search-wrapper search-wrapper-wide">
+                                    <label for="q" class="sr-only">Search</label>
+                                    <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+                                    <input type="search" class="form-control" name="q" id="q"
+                                        placeholder="Search product ..." required>
+                                </div><!-- End .header-search-wrapper -->
+                            </form>
+                        </div><!-- End .header-search -->
+                    </div>
+
+                    <div class="header-right">
+
+
+                        <div class="wishlist">
+                            <a href="account.html" title="account">
+                                <div class="icon">
+                                    <i class="icon-user"></i>
+                                </div>
+                                <p>Account</p>
+                            </a>
+                        </div>
+                        <div class="wishlist">
+                            <a href="wishlist.html" title="Wishlist">
+                                <div class="icon">
+                                    <i class="icon-heart-o"></i>
+                                </div>
+                                <p>Wishlist</p>
+                            </a>
+                        </div>
+
+                        <div class="dropdown cart-dropdown">
+                            <a href="cart.html" class="dropdown-toggle" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" data-display="static">
+                                <div class="icon">
+                                    <i class="icon-shopping-cart"></i>
+                                </div>
+                                <p>Cart</p>
+                            </a>
+                        </div>
+
+
+                        <div class="wishlist">
+                            <a href="about.html" title="Wishlist">
+                                <div class="icon">
+                                    <i class="icon-info-circle"></i>
+                                </div>
+                                <p>About Us</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-bottom sticky-header">
+                    <div class="header-left">
+                        <div class="dropdown category-dropdown">
+                        </div><!-- End .category-dropdown -->
+                    </div><!-- End .header-left -->
+
+                    <div class="header-bottom sticky-header">
+                        <div class="container d-none d-lg-flex justify-content-center">
+                            <ul class="menu sf-arrows">
+                                <li><a href="laptops.html">Laptops</a></li>
+                                <li><a href="gaming.html">Video Games</a></li>
+                                <li><a href="tablet.html">Tablets</a></li>
+                                <li><a href="phones.html">Smart Phones</a></li>
+                                <li><a href="earpuds.html">Headphones Earbuds</a></li>
+                                <li><a href="camera.html">Digital Cameras</a></li>
+                                <li><a href="printer.html">Printers</a></li>
+                                <li><a href="tv.html">Television</a></li>
+                                <li><a href="speakers.html">Speaker</a></li>
+                                <li><a href="watch.html">Smart watches</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- End .header-bottom -->
+        </header><!-- End .header -->
+
+
+        <div class="order-summary-mobile">
+            <div class="toggle-summary">
+                <div class="toggle-summary-left">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Order Summary</span>
+                </div>
+                <div>
+
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <form action="#" method="post">
+            <div class="checkout-container">
+                <div class="checkout-form">
+                    <div class="form-section">
+                        <div class="section-header">
+                            <div class="section-number">1</div>
+                            <div class="section-title">Shipping Information</div>
+                        </div>
+
+                        <div class="form-row half">
+                            <div>
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div>
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="address">Street Address</label>
+                            <input type="text" id="address" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="addressLine2">Apartment, suite, etc. (optional)</label>
+                            <input type="text" id="addressLine2">
+                        </div>
+                        <div class="form-row half">
+                            <div>
+                                <label for="city">City</label>
+                                <input type="text" id="city" required>
+                            </div>
+                        </div>
+
+
+                        <div class="save-info">
+                            <input type="checkbox" id="save-address" checked>
+                            <label for="save-address">Save this information for next time</label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-section">
+                        <div class="section-header">
+                            <div class="section-number">2</div>
+                            <div class="section-title">Payment Method</div>
+                        </div>
+
+                        <div class="payment-methods">
+                            <div class="payment-method selected" data-method="card">
+                                <div class="payment-method-radio"></div>
+                                <div class="payment-method-icon">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                                <div class="payment-method-details">
+                                    <div class="payment-method-title">Credit / Debit Card</div>
+                                    <div class="payment-method-description">Pay securely with your card</div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="payment-method" data-method="Cash">
+                                <div class="payment-method-radio"></div>
+                                <div class="payment-method-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+
+                                <div class="payment-method-details">
+                                    <div class="payment-method-title">Cash On Delivery</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div id="card-details" class="card-details">
+                            <div class="form-row">
+                                <label for="cardName">Name on Card</label>
+                                <input type="text" id="cardName" required>
+                            </div>
+                            <div class="form-row card-row">
+                                <label for="cardNumber">Card Number</label>
+                                <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" required>
+                                <div class="card-icon">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                            </div>
+                            <div class="form-row half">
+                                <div>
+                                    <label for="expiry">Expiration Date</label>
+                                    <input type="text" id="expiry" placeholder="MM/YY" required>
+                                </div>
+                                <div class="card-row">
+                                    <label for="cvv">Security Code (CVV) <span class="tooltip"><i
+                                                class="fas fa-question-circle"></i>
+                                            <span class="tooltiptext">The 3 or 4 digit code on the back of your
+                                                card</span>
+                                        </span></label>
+                                    <input type="password" id="cvv" placeholder="123" required>
+                                    <div class="card-icon">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-icons">
+                                <div class="card-icon-item">VISA</div>
+                                <div class="card-icon-item">MC</div>
+                                <div class="card-icon-item">AMEX</div>
+                                <div class="card-icon-item">DISC</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="secure-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <strong>Secure Payment</strong><br>
+                                <span>Your payment information is encrypted and secure</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="special-offers">
+                        <h3><i class="fas fa-tag"></i> Special Offers</h3>
+                        <ul class="offers-list">
+                            <li>Free shipping on your next order when you complete this purchase</li>
+                            <li>Sign up for our newsletter and get 10% off your next order</li>
+                            <li>Join our loyalty program for exclusive rewards and discounts</li>
+                        </ul>
+                    </div>
+
+                    <div class="form-section">
+                        <button type="button" class="btn" onclick="completePurchase()">
+                            <i class="fas fa-lock"></i> Complete Purchase
+                          </button>
+                          
+        </form>
+
+        <p style="text-align: center; margin-top: 15px; font-size: 14px; color: var(--dark-gray);">
+            By completing your purchase, you agree to our <a href="#" style="color: var(--primary-color);">Terms
+                of Service</a> and <a href="#" style="color: var(--primary-color);">Privacy Policy</a>
+        </p>
+    </div>
+
+    <div class="trust-badges">
+        <div class="trust-badge">
+            <i class="fas fa-truck"></i>
+            <div>Free Shipping</div>
+            <div>On orders over $50</div>
+        </div>
+        <div class="trust-badge">
+            <i class="fas fa-undo"></i>
+            <div>Easy Returns</div>
+            <div>30 day money back</div>
+        </div>
+        <div class="trust-badge">
+            <i class="fas fa-headset"></i>
+            <div>24/7 Support</div>
+            <div>Call or email us</div>
+        </div>
+        <div class="trust-badge">
+            <i class="fas fa-shield-alt"></i>
+            <div>Secure Payment</div>
+            <div>100% protected</div>
+        </div>
+    </div>
+    </div>
+
+    <div class="order-summary">
+        <h2>Order Summary</h2>
+
+        <div class="items">
+
+        </div>
+
+        <div class="summary">
+            <div class="summary-row">
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget widget-about">
+                            <img src="images/demos/logo/logo3.png" class="-logo" alt="Logo" width="105" height="25">
+                            <p>Discover the future of technology with top brands and exclusive
+                                deals.</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/" class="social-icon" target="_blank"
+                                    title="Facebook"><i class="icon-facebook-f"></i></a>
+                                <a href="https://www.Twitter.com/" class="social-icon" target="_blank"
+                                    title="Twitter"><i class="icon-twitter"></i></a>
+                                <a href="https://www.Instagram.com/" class="social-icon" target="_blank"
+                                    title="Instagram"><i class="icon-instagram"></i></a>
+                                <a href="https://www.Youtube.com/" class="social-icon" target="_blank"
+                                    title="Youtube"><i class="icon-youtube"></i></a>
+                                <a href="https://www.Pinterest.com/" class="social-icon" target="_blank"
+                                    title="Pinterest"><i class="icon-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title">Top Categorys</h4>
+                            <ul class="widget-list">
+                                <li><a href="laptops.html">Laptops</a></li>
+                                <li><a href="tablet.html">Tablets</a></li>
+                                <li><a href="tv.html">Television</a></li>
+                                <li><a href="phones.html">Smart Phones</a></li>
+                                <li><a href="gaming.html">Video Games</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title">Useful Links</h4>
+                            <ul class="widget-list">
+                                <li><a href="account.html">My Account</a></li>
+                                <li><a href="login.html">Sign In</a></li>
+                                <li><a href="cart.html">View Cart</a></li>
+                                <li><a href="wishlist.html">My Wishlist</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="footer-copyright">Copyright © NEXTRONICS Store. All Rights Reserved.</p>
+                <figure class="footer-payments">
+                    <img src="images/demos/payments.png" alt="Payment methods" width="272" height="20">
+                </figure>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+    <!-- Mobile Menu -->
+
+    <div class="mobile-menu-container mobile-menu-light">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-close"></i></span>
+
+
+            <form action="#" method="get" class="mobile-search">
+                <label for="mobile-search" class="sr-only">Search</label>
+                <input type="search" class="form-control" name="mobile-search" id="mobile-search"
+                    placeholder="Search in..." required>
+                <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+            </form>
+
+            <ul class="nav nav-pills-mobile nav-border-anim" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab"
+                        role="tab" aria-controls="mobile-menu-tab" aria-selected="true">Categories</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel"
+                    aria-labelledby="mobile-menu-link">
+                    <nav class="mobile-nav">
+                        <ul class="mobile-menu">
+                            <li><a href="laptops.html">Laptops</a></li>
+                            <li><a href="phones.html">Smart Phones</a></li>
+                            <li><a href="earpuds.html">Headphones Earbuds</a></li>
+                            <li><a href="camera.html">Digital Cameras</a></li>
+                            <li><a href="printer.html">Printers</a></li>
+                            <li><a href="tv.html">Television</a></li>
+                            <li><a href="speakers.html">Speaker</a></li>
+                            <li><a href="watch.html">Smart watches</a></li>
+                            <li><a href="gaming.html">Video Games</a></li>
+                            <li><a href="tablet.html">Tablets</a></li>
+
+
+                    </nav><!-- End .mobile-nav -->
+                </div><!-- .End .tab-pane -->
+
+            </div><!-- End .tab-content -->
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" class="social-icon" target="_blank" title="Facebook"><i
+                        class="icon-facebook-f"></i></a>
+                <a href="https://www.Twitter.com/" class="social-icon" target="_blank" title="Twitter"><i
+                        class="icon-twitter"></i></a>
+                <a href="https://www.Instagram.com/" class="social-icon" target="_blank" title="Instagram"><i
+                        class="icon-instagram"></i></a>
+                <a href="https://www.Youtube.com/" class="social-icon" target="_blank" title="Youtube"><i
+                        class="icon-youtube"></i></a>
+            </div><!-- End .social-icons -->
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+    
+    
+    <script src="js/checkout.js"></script>
+    
+    
+    <div id="successMessage" style="
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #4BB543;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-weight: bold;
+  display: none;
+  z-index: 9999;
+    ">
+        ✅ Thank you! Your order has been placed successfully.
+    </div>
+</body>
+
+</html>
